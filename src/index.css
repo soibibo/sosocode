@@ -1,0 +1,115 @@
+/*------------- 
+[Table of contents]
+|=============================|
+|  [Author]: Soibibo Amakiri  |
+|=============================|
+
+[ DEFULT INDEX NUMBER ]
+
+1.  GENERAL CSS
+2.  NAVBAR
+4.  HOME
+5.  SERVICE
+6.  ABOUT
+7.  TESTIMONIAL
+8.  FAQ
+9.  QUATE
+10. SUBSCRIBE
+11. PRICING
+12. BLOG
+13. FOOTER
+14. COPYRIGHT
+
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[ Color codes ]
+    
+    [ Text and Background Color ]
+        Main color 1:       #1c93e5     
+        Main color 2:       #009688      
+        Main color 3:       #9c27b0
+        Main color 4:       #ff4081      
+        Background 1:       #FFFFFF            
+        Background 2:       #F6F6F6           
+        Shadow color:       #000000;            
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Typography]
+
+    [ There are using two different font typography ]
+        Typography 1: Roboto font;
+        Typography 2: Montserrat font;
+
+
+-------------------------------------------------------------------*/
+/*
+================
+ VARIABLES
+================
+*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * -------------------
+ *  Defult CSS 
+ * -------------------
+ */
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  background-color: #000 !important;
+  /* background-image: linear-gradient(0deg, rgba(4, 11, 8, 0.273), rgba(0, 3, 6, 0.542)), url('./assets/images/bodybg4.jpg') !important; */
+  background-image: linear-gradient(0deg, rgba(4, 11, 8, 0.273), rgba(0, 3, 6, 0.542)), url('./assets/images/herobg2.png') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: var(--figtree-regular);
+  overflow-x: hidden !important;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'roboto', sans-serif;
+}
+.hero-img img {
+  border-radius: 50%;
+  width: 25rem;
+  border: solid 2px #f4995e;
+  box-shadow: 0 0 30px rgba(168, 118, 9, 0.659), 0 0 30px rgba(168, 118, 9, 0.659);
+}
+.soso-shadow {
+  box-shadow: 0 0 30px inset rgba(0, 9, 11, 0.444), 0 0 30px rgba(0, 12, 16, 0.42), 0 0 30px rgba(0, 12, 16, 0.242);
+}
+
+#badge {
+  background: #f4995e !important;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 10px 10px;
+  border-radius: 25px 0;
+  margin-top: 1rem;
+}
+.soso-about {
+  background: url('./assets/images/blog-bg.jpg') !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
