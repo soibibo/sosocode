@@ -37,7 +37,7 @@ export default function Portfolio() {
                         <a href="https://credib.io" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -51,7 +51,7 @@ export default function Portfolio() {
                         <a href="https://stormcelltech.com" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -65,7 +65,7 @@ export default function Portfolio() {
                         <a href="#" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -79,7 +79,7 @@ export default function Portfolio() {
                         <a href="https://schchat.com" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -93,7 +93,7 @@ export default function Portfolio() {
                         <a href="https://peterfemassociates.com" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -107,7 +107,7 @@ export default function Portfolio() {
                         <a href="https://partste.ng" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -145,7 +145,7 @@ export default function Portfolio() {
                         <a href="https://www.figma.com/file/E7qXXED6xTCEhCk3URtXEu/NYLC-(Copy)?type=design&node-id=529%3A764&mode=design&t=YxdVOi5ndFCRPxaG-1" target="_blank" className="">
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
@@ -163,7 +163,7 @@ export default function Portfolio() {
                         >
                           <Button color="primary" className=" float-right my-3 bg-soso-dark hover:bg-soso-light">
                             <FaEye />
-                            View
+                            Live preview
                           </Button>
                         </a>
                       </figcaption>
