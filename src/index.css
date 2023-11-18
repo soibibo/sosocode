@@ -67,11 +67,12 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   scroll-behavior: smooth;
+  background-color: #000;
 }
 
 body {
   position: relative;
-  background-color: #000 !important;
+  background-color: #000000 !important;
   /* background-image: linear-gradient(0deg, rgba(4, 11, 8, 0.273), rgba(0, 3, 6, 0.542)), url('./assets/images/bodybg4.jpg') !important; */
   background-image: linear-gradient(0deg, rgba(4, 11, 8, 0.273), rgba(0, 3, 6, 0.542)), url('./assets/images/herobg2.png') !important;
   background-size: cover;
@@ -112,4 +113,10 @@ h6 {
   background: url('./assets/images/blog-bg.jpg') !important;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.bg-warning {
+  --tw-bg-opacity: 1;
+  /* background-color: #f4995e !important; */
+  background: linear-gradient(to right, #f4995e 0%, #f49a5e97 100%) !important;
+  border: #797777 solid 1px;
 }

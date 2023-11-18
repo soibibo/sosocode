@@ -3,7 +3,7 @@ import Jumbotron from './Components/Jumbotron'
 import About from './Components/About'
 import Footer from './Components/Footer'
 import Featured from './Components/Featured'
-// import Portfolio from './Components/Portfolio'
+import Portfolio from './Components/Portfolio'
 const App = () => {
   return (
     <>
@@ -11,7 +11,7 @@ const App = () => {
       <Jumbotron />
       <About />
       <Featured />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <Footer />
     </>
   )

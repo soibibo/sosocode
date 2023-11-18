@@ -6,9 +6,8 @@ import { LiaWhatsapp } from 'react-icons/lia'
 function Nav() {
   return (
     <Flowbite>
-      {/* <Navbar rounded className="bg-gray-800 py-3 text-xl fixed top-0 w-full z-20"> */}
       <Navbar rounded className=" backdrop-blur rounded-b-3xl bg-grad-soso-secondary py-3 text-xl fixed top-0 w-full z-20">
-        <Navbar.Brand href="https://flowbite-react.com">
+        <Navbar.Brand href="sosocode.netlify.app">
           <span className="self-center whitespace-nowrap text-2xl font-bold text-soso-primary">
             <FontAwesomeIcon icon={faCode} className="text-white" /> Soso<span className=" text-gray-500">code</span>
           </span>
@@ -30,7 +29,7 @@ function Nav() {
           <Navbar.Link href="#services" className="text-white lg:hover:text-soso-primary-light hover:text-black lg:text-lg">
             Services
           </Navbar.Link>
-          <Navbar.Link href="#" className="text-white lg:hover:text-soso-primary-light hover:text-black lg:text-lg">
+          <Navbar.Link href="#portfolio" className="text-white lg:hover:text-soso-primary-light hover:text-black lg:text-lg">
             portfolio
           </Navbar.Link>
           <Navbar.Link href="#" className="text-white lg:hover:text-soso-primary-light hover:text-black lg:text-lg">
