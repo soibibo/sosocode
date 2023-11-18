@@ -2,6 +2,7 @@ import heroImg from '../assets/images/soibibo-profile-pic.jpeg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDownload } from '@fortawesome/free-solid-svg-icons'
 import { FaEnvelope, FaPhone, FaLinkedin } from 'react-icons/fa6'
+import resume from '../assets/resume/Soibibo-Resume-updated-september.pdf'
 
 function Jumbotron() {
   return (
@@ -32,8 +33,9 @@ function Jumbotron() {
               </a>
             </div>
             <a
-              href="#"
+              href={resume}
               className="inline-flex items-center float-right justify-center px-5 py-3 mr-3 mb-6 text-base font-medium text-center text-white rounded-lg bg-black hover:bg-slate-900 transition-all ease-in-out duration-700"
+              download={true}
             >
               <span>
                 <FontAwesomeIcon icon={faDownload} className="pe-3" />
