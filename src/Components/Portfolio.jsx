@@ -24,7 +24,7 @@ export default function Portfolio() {
         <Tab className="font-bold" key="web" title="Web Applications" activeStyle={{ backgroundColor: 'blue' }} activeClassName="active-tab">
           <Card className="">
             <CardBody className="bg-zinc-700">
-              <div className="py-8 px-4 mx-auto max-w-screen-xl md:max-w-screen-lg sm:py-16 lg:px-6">
+              <div className="py-8 px-4 mx-auto max-w-screen-xl md:max-w-screen-lg lg:max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="max-w-screen-md mx-auto sm:mb-8 md:mb-8 lg:mb-8 xl:mb-8">
                   <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-white text-center dark:text-white">Web Applications</h2>
                 </div>
@@ -132,7 +132,7 @@ export default function Portfolio() {
         <Tab className="font-bold" key="ui" title="Ui/UX design" activeStyle={{ backgroundColor: 'blue' }} activeClassName="active-tab">
           <Card className="">
             <CardBody className="bg-zinc-700 ">
-              <div className="py-8 px-4 mx-auto max-w-screen-xl md:max-w-screen-lg sm:py-16 lg:px-6">
+              <div className="py-8 px-4 mx-auto max-w-screen-xl md:max-w-screen-xl sm:py-16 lg:px-6">
                 <div className="max-w-screen-md mx-auto sm:mb-8 md:mb-8 lg:mb-8 xl:mb-8">
                   <h2 className="mb-4 text-2xl tracking-tight font-extrabold text-white text-center dark:text-white">Ui/UX Designs</h2>
                 </div>
