@@ -1,6 +1,6 @@
 const Featured = () => {
   return (
-    <section id="services" className="bg-zinc-900 pt-20 pb-20">
+    <section id="services" className="lg:relative lg:ml-[-50%] lg:w-[200%] lg:rounded-b-[100%] bg-zinc-900 pt-20 pb-20">
       <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mx-auto mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center dark:text-white">Services</h2>
