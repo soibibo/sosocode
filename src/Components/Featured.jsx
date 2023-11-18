@@ -1,7 +1,7 @@
 const Featured = () => {
   return (
-    <section id="services" className="lg:relative lg:ml-[-50%] lg:w-[200%] lg:rounded-b-[100%] bg-zinc-900 pt-20 pb-20">
-      <div className="py-8 px-4 mx-auto w-10/12 md:w-10/12 lg:w-10/12 max-w-screen-xl md:max-w-screen-lg sm:py-16 lg:px-6">
+    <section id="services" className="bg-zinc-900 pt-20 pb-20">
+      <div className="py-8 px-4 mx-auto w-10/12 md:w-10/12 lg:w-10/12 max-w-screen-xl sm:py-16 lg:px-6">
         <div className="max-w-screen-md mx-auto mb-8 lg:mb-16">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-white text-center dark:text-white">Services</h2>
           <p className="text-gray-500 sm:text-xl text-center dark:text-gray-400">Here are services we offer</p>
