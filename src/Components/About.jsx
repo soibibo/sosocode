@@ -1,8 +1,4 @@
-import aboutImg from '../assets/images/soibibo-profile-pic.jpeg'
-import aboutBlog from '../assets/images/soibibo-blog.webp'
-
 import { about } from '../Data/about'
-
 const About = () => {
   return (
     <>
