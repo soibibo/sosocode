@@ -13,10 +13,12 @@ function Nav() {
           </span>
         </Navbar.Brand>
         <div className="flex md:order-2">
-          <Button className="bg-grad-soso-primary duration-500  ease-linear transition-all">
-            <LiaWhatsapp className="text-2xl" />
-            <span className="ps-1">Whatsapp</span>
-          </Button>
+          <a target="_blank" href="https://wa.me/2347065301316">
+            <Button className="bg-grad-soso-primary duration-500  ease-linear transition-all">
+              <LiaWhatsapp className="text-2xl" />
+              <span className="ps-1">Whatsapp</span>
+            </Button>
+          </a>
           <Navbar.Toggle />
         </div>
         <Navbar.Collapse>
